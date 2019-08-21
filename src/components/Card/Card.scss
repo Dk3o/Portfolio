@@ -1,0 +1,70 @@
+.card {
+    float: left;
+
+    .overlay {
+        height: inherit;
+        background-color: rgba(0,0,0,0.5);
+        color: #C1C1C1;
+        cursor: pointer;
+
+        &:hover {
+            background-color: rgba(0,0,0,0.3);
+            color: #fff;
+        }
+
+        h2 {
+            margin: 0;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 2em;
+            position: relative;
+            top: 50%;
+        }
+    }
+}
+
+.theme1 {
+    background: url(../../images/1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.theme2 {
+    background: url(../../images/2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.theme3 {
+    background: url(../../images/3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.theme4 {
+    background: url(../../images/4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+@media only screen and (min-device-width : 481px) and (max-device-width : 1024px) {
+    .card {
+        .overlay {
+            h2 {
+                font-size: 1.2em;
+                color: white;
+            }
+        }
+    }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .card {
+        .overlay {
+            h2 {
+                font-size: 1.5em;
+                color: white;
+            }
+        }
+    }
+}

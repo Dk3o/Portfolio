@@ -1,0 +1,34 @@
+.skew {
+    background-color: rgba(0,0,0,0.7);
+    width: 50%;
+    height: 400px;
+    position: fixed;
+}
+
+.skew-top {
+    top: -15em;
+}
+
+.skew-bottom {
+    bottom: -15em;
+}
+
+.skew-left {
+    left: 0;
+}
+
+.skew-positive-y {
+    transform: skew(0deg, 10deg);
+}
+
+.skew-right {
+    right: 0;
+}
+
+.skew-negative-y {
+    transform: skew(0deg, -10deg);
+}
+
+
+
+

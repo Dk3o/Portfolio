@@ -1,0 +1,35 @@
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+
+    .view {
+        position: absolute;
+        left: 50%;
+        bottom: 100px;
+        display: block;
+        transform: translateX(-50%);
+
+        .button {
+            display: inline-block;
+            margin: 0 20px;
+            cursor: pointer;
+        }
+    }
+}
+
+@media only screen and (min-device-width : 481px) and (max-device-width : 1024px) {
+    .footer {
+        .view {
+            display: none;
+        }
+    }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .footer {
+        .view {
+            display: none;
+        }
+    }
+}

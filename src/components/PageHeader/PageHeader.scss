@@ -1,0 +1,15 @@
+.header {
+    position: relative;
+    z-index: 999;
+
+    .logo {
+        position: fixed;
+        left: 50%;
+
+        img {
+            position: relative;
+            left: -36px;
+            margin-top: 50px;
+        }
+    }
+}

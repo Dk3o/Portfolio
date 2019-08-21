@@ -1,0 +1,24 @@
+.social {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+
+    ul {
+        padding: 0;
+
+        li {
+            display: inline-block;
+            margin: 0 1.5em;
+
+            a {
+                text-decoration: none;
+                color: white;
+
+                &:hover {
+                    color: #FC5656;
+                }
+            }
+        }
+    }
+}
